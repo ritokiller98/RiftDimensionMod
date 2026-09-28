@@ -1,0 +1,12 @@
+{
+  "type": "riftdimension:interworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "riftdimension:interworld_void"
+    },
+    "settings": "minecraft:floating_islands"
+  }
+}

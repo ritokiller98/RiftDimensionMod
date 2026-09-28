@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="riftdimension"
+version="1.0.0"
+displayName="The Rift Dimension Mod"
+authors="RiftMod"
+description='''
+A cosmic dimension mod featuring the Rift Sword, The Interworld and the Black Hole Core.
+Inspired by TON 618.
+'''
+
+[[dependencies.riftdimension]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.riftdimension]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

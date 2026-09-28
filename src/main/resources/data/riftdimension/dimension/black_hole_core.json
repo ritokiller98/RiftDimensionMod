@@ -1,0 +1,30 @@
+{
+  "type": "riftdimension:black_hole_core",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:obsidian",
+          "height": 1
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}
